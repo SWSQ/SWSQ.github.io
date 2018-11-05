@@ -17,7 +17,7 @@
 
 
 
-  <meta name="description" content="Hello World">
+  <meta name="description" content="hexo commands">
 
 
 
@@ -40,7 +40,7 @@
 
 
 
-<link rel="canonical" href="https://swsq.net.cn/2018/11/04/hello-world/">
+<link rel="canonical" href="https://swsq.net.cn/2018/11/05/hexo-commands/">
 
 
 
@@ -88,7 +88,7 @@
   window.config = {"leancloud":{"app_id":null,"app_key":null},"toc":true,"fancybox":true,"pjax":true};
 </script>
 
-    <title> Hello World - Q'web </title>
+    <title> hexo commands - Q'web </title>
   </head>
 
   <body><div id="mobile-navbar" class="mobile-navbar">
@@ -222,13 +222,13 @@
     <header class="post-header">
       <h1 class="post-title">
         
-          Hello World
+          hexo commands
         
       </h1>
 
       <div class="post-meta">
         <span class="post-time">
-          2018-11-04
+          2018-11-05
         </span>
         
         
@@ -240,7 +240,7 @@
   <div class="post-toc" id="post-toc">
     <h2 class="post-toc-title">文章目录</h2>
     <div class="post-toc-content">
-      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Quick-Start"><span class="toc-text">Quick Start</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Create-a-new-post"><span class="toc-text">Create a new post</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Run-server"><span class="toc-text">Run server</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Generate-static-files"><span class="toc-text">Generate static files</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Deploy-to-remote-sites"><span class="toc-text">Deploy to remote sites</span></a></li></ol></li></ol>
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#undefined"><span class="toc-text">hexo常用命令</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-text">初始化网站</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-text">新建文章</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-text">生成静态文件</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-text">启动本地服务器</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-text">部署网站</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-text">清理文件</span></a></li></ol></li></ol>
     </div>
   </div>
 
@@ -248,15 +248,31 @@
 
     <div class="post-content">
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+        <p></p><h1>hexo常用命令</h1><p></p>
+<p></p><h2>初始化网站</h2><p></p>
+<blockquote>
+<p>$ hexo init [folder]<br>folder用以指定初始化目录的位置，若无指定则默认当前位置</p>
+</blockquote>
+<p></p><h2>新建文章</h2><p></p>
+<blockquote>
+<p>$ new [layout] <title><br>layout指定文章类型，，若无指定则默认由_config.yml文件的default_layout决定<br>title指定文章标题，如果title中含有空格需要使用双引号包围  </title></p>
+</blockquote>
+<p></p><h2>生成静态文件</h2><p></p>
+<blockquote>
+<p>$ hexo generate<br>$ hexo g</p>
+</blockquote>
+<p></p><h2>启动本地服务器</h2><p></p>
+<blockquote>
+<p>$ hexo sever<br>$ hexo s</p>
+</blockquote>
+<p></p><h2>部署网站</h2><p></p>
+<blockquote>
+<p>$ hexo deploy<br>生成后直接部署： $ hexo generate –deploy  </p>
+</blockquote>
+<p></p><h2>清理文件</h2><p></p>
+<blockquote>
+<p>$ hexo clean<br>清除缓存文件db.json和生成文件public，网站显示异常时可尝试此操作</p>
+</blockquote>
 
       
     </div>
