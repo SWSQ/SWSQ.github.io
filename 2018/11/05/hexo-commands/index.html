@@ -31,7 +31,7 @@
 
 
 
-  <link rel="alternate" href="/default" title="Q'web">
+  <link rel="alternate" href="/default" title="小峤呀">
 
 
 
@@ -88,12 +88,12 @@
   window.config = {"leancloud":{"app_id":null,"app_key":null},"toc":true,"fancybox":true,"pjax":true};
 </script>
 
-    <title> hexo 常用命令 - Q'web </title>
+    <title> hexo 常用命令 - 小峤呀 </title>
   </head>
 
   <body><div id="mobile-navbar" class="mobile-navbar">
   <div class="mobile-header-logo">
-    <a href="/." class="logo">Q'web</a>
+    <a href="/." class="logo">小峤呀</a>
   </div>
   <div class="mobile-navbar-icon">
     <span></span>
@@ -123,24 +123,6 @@
         </li>
       </a>
     
-      <a href="/tags">
-        <li class="mobile-menu-item">
-          
-          
-            标签
-          
-        </li>
-      </a>
-    
-      <a href="/categories">
-        <li class="mobile-menu-item">
-          
-          
-            分类
-          
-        </li>
-      </a>
-    
       <a href="/about">
         <li class="mobile-menu-item">
           
@@ -155,7 +137,7 @@
 
     <div class="container" id="mobile-panel">
       <header id="header" class="header"><div class="logo-wrapper">
-  <a href="/." class="logo">Q'web</a>
+  <a href="/." class="logo">小峤呀</a>
 </div>
 
 <nav class="site-navbar">
@@ -176,24 +158,6 @@
             
             
               归档
-            
-          </a>
-        </li>
-      
-        <li class="menu-item">
-          <a class="menu-item-link" href="/tags">
-            
-            
-              标签
-            
-          </a>
-        </li>
-      
-        <li class="menu-item">
-          <a class="menu-item-link" href="/categories">
-            
-            
-              分类
             
           </a>
         </li>
@@ -248,13 +212,14 @@
 
     <div class="post-content">
       
-        <p></p><h2>初始化网站</h2><p></p>
+        <p>一些常会用到的指令<br><a id="more"></a></p>
+<p></p><h2>初始化网站</h2><p></p>
 <blockquote>
 <p>$ hexo init [folder]<br>folder用以指定初始化目录的位置，若无指定则默认当前位置</p>
 </blockquote>
 <p></p><h2>新建文章</h2><p></p>
 <blockquote>
-<p>$ new [layout] <title><br>layout指定文章类型，，若无指定则默认由_config.yml文件的default_layout决定<br>title指定文章标题，如果title中含有空格需要使用双引号包围  </title></p>
+<p>$ new [layout] <title><br>layout指定文章类型post、page、draft，若无指定则默认由_config.yml文件的default_layout决定<br>指定 draft 参数，文件将保存到 source/_drafts 文件夹中<br>将草稿移动到 source/_posts文件中:$ hexo publish [layout] <filename><br>title指定文章标题，如果title中含有空格需要使用双引号包围  </filename></title></p>
 </blockquote>
 <p></p><h2>生成静态文件</h2><p></p>
 <blockquote>
@@ -308,6 +273,12 @@
         
         
   <nav class="post-nav">
+    
+      <a class="prev" href="/2018/11/06/windows-shoutcut/">
+        <i class="iconfont icon-left"></i>
+        <span class="prev-text nav-default">windows10 快捷方式</span>
+        <span class="prev-text nav-mobile">上一篇</span>
+      </a>
     
     
   </nav>
