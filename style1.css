@@ -1,0 +1,13 @@
+#notebook{
+	height: 800px;
+	width: 500px;
+}
+textarea{
+	height: 400px;
+	width: 500px;
+}
+
+.preview{
+	height: 400px;
+	width: 500px;
+}
