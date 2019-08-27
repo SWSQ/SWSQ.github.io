@@ -27,7 +27,7 @@ body {
 
 .side-bar {
   background: #f8f8f8;
-  width: 20%;
+  width: 15%;
   box-sizing: border-box;
 }
 
@@ -52,6 +52,7 @@ textarea {
   line-height: inherit;
   box-sizing: border-box;
   outline: none !important;
+  height: 700px;
 }
 
 button,
@@ -144,7 +145,6 @@ h1,
 h2,
 h3 {
   margin: 10px 0 4px;
-  color: #40b883;
 }
 
 h1 {
